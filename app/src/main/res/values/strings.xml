@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jogo da Velha</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jogadorX">Jogador 1 (X)</string>
+    <string name="jogadorO">Jogador 2 (O)</string>
+</resources>
