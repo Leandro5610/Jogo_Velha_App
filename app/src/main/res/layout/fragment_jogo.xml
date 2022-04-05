@@ -27,9 +27,11 @@
             android:layout_weight="2"
             android:textAlignment="center"
             android:id="@+id/placarUm"
-            android:text="0">
+            android:text="0"
+            >
 
         </TextView>
+
 
     </LinearLayout>
 
@@ -122,6 +124,23 @@
                 />
 
         </TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:id="@+id/Empates"
+            android:text="@string/jogadorX">
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textAlignment="center"
+            android:id="@+id/placaEmpate"
+            android:text="0"
+            >
+
+        </TextView>
     </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

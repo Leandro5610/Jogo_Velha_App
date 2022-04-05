@@ -5,10 +5,29 @@
     android:layout_height="match_parent"
     tools:context=".fragment.FragmentInicio">
 
-    <!-- TODO: Update blank fragment layout -->
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/joga_velha">
+
+     </ImageView>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/verm"
+        android:textSize="20dp"
+        android:text="@string/bem_vindo"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/botao_jogar"
+        android:backgroundTint="@color/verm"
+        android:text="@string/jogar"
+        android:layout_height="wrap_content"/>
 
 </FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.EditTextPreference
+        android:key="simboloJog1"
+        android:title ="Simbolo do jogador 1"
+        android:summary="Escolha o simbolo do jogador 1"
+        />
+    <androidx.preference.EditTextPreference
+        android:key="simboloJog2"
+        android:title ="Simbolo do jogador 2"
+        android:summary="Escolha o simbolo do jogador 2"
+        />
+</androidx.preference.PreferenceScreen>
