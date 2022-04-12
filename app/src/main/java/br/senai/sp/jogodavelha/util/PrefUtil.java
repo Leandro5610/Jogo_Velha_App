@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 public class PrefUtil {
-   public static void salvarSimJog1(String simbolo, Context context){
+   public static void salvarSimJo(String simbolo, Context context){
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
         SharedPreferences.Editor editor = preferences.edit();
         editor.putString("sim_jog_1", simbolo);
@@ -22,6 +22,11 @@ public class PrefUtil {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
         return preferences.getString("simboloJog2","O") ;
     }
+    public static  String numeroRodadas(Context context){
+       SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+       return preferences.getString("numeroDeRodadas", "0");
+    }
+
 
 
 }

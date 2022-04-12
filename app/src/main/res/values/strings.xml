@@ -7,8 +7,11 @@
     <string name="jogadorO">Jogador 2 (%1$s)</string>
     <string name="ganhou">Você Venceu!!!!!!!!</string>
     <string name="jogar">Jogar</string>
+    <string name="empate">Empates</string>
     <string name="bem_vindo">Bem Vindo</string>
-
+    <string name="rodadas">Numero de rodadas</string>
+    <string name="c">(%1$s)</string>
+    <string name="jogo">Ganhou o Jogo</string>
     <string name="velha">Deu Velha!!!!</string>
     <string name="resetar">Zerar o Placar</string>
     <string name="tela_inicial">Voltar a Tela Inicial</string>

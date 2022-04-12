@@ -11,4 +11,9 @@
         android:title ="Simbolo do jogador 2"
         android:summary="Escolha o simbolo do jogador 2"
         />
+    <androidx.preference.EditTextPreference
+        android:key="numeroDeRodadas"
+        android:title ="Numero de rodadas"
+        android:summary="Escolha o numero de rodadas"
+        />
 </androidx.preference.PreferenceScreen>
